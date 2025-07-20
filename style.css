@@ -90,6 +90,12 @@ footer {
     margin-top: 40px;
 }
 
+.profil-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
 .btn-cv {
     display: inline-block;
     margin-top: 20px;
@@ -106,4 +112,12 @@ footer {
 .btn-cv:hover {
     background-color: #005f99;
     color: white;
+}
+
+.profil-pic {
+    width: 150px;              /* largeur réduite */
+    height: auto;              /* conserve les proportions */
+    border-radius: 50%;        /* rend l'image ronde */
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* ombre légère */
 }
